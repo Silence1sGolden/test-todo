@@ -1,0 +1,28 @@
+.main {
+  inline-size: 100vw;
+  block-size: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 243, 243);
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+    padding: 25px;
+    background-color: white;
+    border: 1px solid rgb(161, 170, 170);
+    border-radius: 5px;
+
+    .title {
+      font-size: 32px;
+      text-align: center;
+      letter-spacing: 0.5rem;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+  }
+}
